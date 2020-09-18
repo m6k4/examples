@@ -1,14 +1,23 @@
-.ReactivityExample{
+.Parent{
+    border-radius: 10px;
+    border: 2px solid grey;
+    padding: 20px;
+    width: 550px;
+    height: 480px;
+    padding: 25px;
+    text-align: left;
+   }
+   .flex{
     display: flex;
     flex-direction: column;
     justify-content: center;
    }
    
    button{
-       width: 250px;
+       width: 200px;
        border-radius: 10px;
        border: 1 solid #686868;
-       margin-top: 10px;
+       margin-top: 10px
    }
    
    button:hover{
@@ -17,11 +26,8 @@
        cursor: pointer;
    }
 
-.buttons{
-    margin-bottom: 20px
-}
    input{
-    width: 250px;
+    width: 200px;
     margin-bottom: 10px;
     border-radius: 4px;
    }

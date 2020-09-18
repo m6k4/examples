@@ -1,11 +1,14 @@
-import Vue from "vue";
-import Vuex from "vuex";
+// store.js without Vuex
+import Vue from 'vue';
 
-Vue.use(Vuex);
-
-export default new Vuex.Store({
-  state: {},
-  mutations: {},
-  actions: {},
-  modules: {}
+export const store = Vue.observable({
+  cat: {
+    name: '',
+  },
 });
+
+export const mutations = {
+  setName(name) {
+    store.cat.name = name;
+  }
+};

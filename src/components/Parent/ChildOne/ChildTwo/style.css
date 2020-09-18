@@ -1,0 +1,27 @@
+.ChildTwo{
+ border-radius: 10px;
+ border: 2px solid grey;
+ padding: 20px;
+ width: 350px;
+ height: 230px;
+ padding: 25px;
+ text-align: left;
+}
+.flex{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+
+button{
+    width: 200px;
+    border-radius: 10px;
+    border: 1 solid #686868;
+    margin-top: 10px
+}
+
+button:hover{
+    color: white;
+    background: #616161;
+    cursor: pointer;
+}
